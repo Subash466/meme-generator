@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form{
+  position: relative;
 }
+.form img{
+  max-width: 450px;
+}
+.form .input{
+  margin:2rem 0;
+  
+}
+.container button{
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.input button{
+  margin-bottom:1rem ;
+  font-size: 2rem;
+  
+}
+.input p{
+  font-size: 3rem;
+  font-weight: bold; 
+}
+.input input{
+  width: 500px;
+}
+.form h1{
+  position: absolute;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.form .top{
+  left:30px;
+}
+.form .center{
+  left:150px;
+  top:180px;
+}
+.form .bottom{
+  left:230px;
+ top:350px;
+}
+@media screen and (max-width: 480px){
+  .input p{
+    font-size: 1.5rem;
+    font-weight: bold; 
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .input input{
+    width: 250px;
   }
-  to {
-    transform: rotate(360deg);
+  .form h1{
+    font-size: 3rem;
+     
   }
+  .form .top{
+    left:20px;
+  }
+  .form .center{
+    left:70px;
+    top:100px;
+  }
+  .form .bottom{
+    left:20px;
+   top:180px;
+}
+
+.input button{
+  font-size: 2.2rem;
+}
 }
