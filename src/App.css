@@ -4,6 +4,7 @@
 }
 .form img{
   max-width: 450px;
+  min-width: 449px;
   max-height: 450px;
   min-height: 449px;
 }
