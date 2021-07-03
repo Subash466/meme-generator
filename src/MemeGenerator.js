@@ -25,12 +25,16 @@ export class MemeGenerator extends Component {
        })
      })
   }
+  //functions
+
+  ///to get user input text
   handleChange=(event)=>{
     const {name,value}=event.target;
     this.setState({
        [name]:value
     })
   }
+  //to get random image
   handleSubmit=(event)=>{
         event.preventDefault();
         const shuffle=Math.floor(Math.random()*this.state.randomMemes.length)
@@ -39,7 +43,7 @@ export class MemeGenerator extends Component {
           memeImage:randomMemeImg
         })
   }
-
+  //to change text color
   hexaColor=()=>{
     let str="0123456789abcdef";
     let color="";

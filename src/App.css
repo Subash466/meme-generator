@@ -4,6 +4,8 @@
 }
 .form img{
   max-width: 450px;
+  max-height: 450px;
+  min-height: 449px;
 }
 .form .input{
   margin:2rem 0;
